@@ -14,6 +14,7 @@ public static void main(String[]args){
    stack.pop(); //this method removes the first element in this list
    stack.peek(); // this method choose the first element of the list and once you print this method it will print the chosen method 
    stack.push(); // push method is used to add element in stack data structure
+   stack.isEmpty() // this method helps us to know if the stack structure is empty and returns boolean value in this case it is false because it has objects
 
   // we can display all the element on the list using loops for example lets try to display them 
 
