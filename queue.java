@@ -1,4 +1,4 @@
-public class Priority{
+public class Queue{
   public static void main(String[]args){
 
 // queue is an interface so it is not instanciated but it can be implemented using forexample here we using LinkedList 
@@ -14,6 +14,9 @@ System.out.println(queue.isEmpty()); //this checks if the structure is empty or 
 System.out.println(queue.size()); // this is to display the size of the structure how many elements it contains
 System.out.println(queue.peek()) // his will peek the first element which is the first element that was added to the list 
 
-
+while(!queue.isEmpty()){
+  queue.poll()
+}
+    //this while loop with method poll will display all the elements inside 
 }
   }
